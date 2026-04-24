@@ -305,10 +305,12 @@ body {
 .form-submit-group {
   display: flex;
   align-items: flex-end;
+  padding-top: 25px;
 }
 
 .btn-submit {
   width: 100%;
+  min-height: 42px;
   padding: 10px 20px;
   background: var(--accent-gradient);
   color: #fff;
@@ -684,6 +686,10 @@ body {
 
   .form-grid {
     grid-template-columns: 1fr;
+  }
+
+  .form-submit-group {
+    padding-top: 0;
   }
 
   .expense-form {
